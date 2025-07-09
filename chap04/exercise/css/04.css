@@ -1,0 +1,23 @@
+.headline {
+    text-align: center;
+    font: bold 36px 궁서체;
+    color: brown;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+div.help {
+    color: blue;
+}
+
+p.help {
+    color: red;
+    font-size: 20px;
+}
+
+#hot {
+    color: blue;
+    background-color: orange;
+}
