@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="KO">
+
+<head>
+    <meta charset="UTF-8">
+    <title>소프트웨어 기술 조사</title>
+    <style>
+        @import url(4-1.css);
+
+        .content {
+            padding: 20px;
+            padding-top: 0px;
+        }
+
+        .vote {
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="content">
+        <header>
+            <h2>설문지</h2>
+            <p style="font-family: 휴먼편지체;">소프트웨어 기술에 대한 의견을 듣습니다. 많은 참여 부탁드립니다.</p>
+            <hr>
+        </header>
+        <article>
+            <div class="vote">
+                학년
+                <label><input type="radio" name="grade" value="1"> 1학년</label>
+                <label><input type="radio" name="grade" value="2"> 2학년</label>
+                <label><input type="radio" name="grade" value="3"> 3학년</label>
+                <label><input type="radio" name="grade" value="4"> 4학년</label>
+            </div>
+            <div class="vote">
+                성별
+                <label><input type="radio" name="gender" value="MALE"> 남</label>
+                <label><input type="radio" name="gender" value="FEMALE"> 여</label>
+            </div>
+            <div class="vote">
+                관심 분야
+                <label><select name="field">
+                        <option value="1">모바일 소프트웨어</option>
+                        <option value="2">네트워크 엔지니어</option>
+                        <option value="3">백엔드 개발자</option>
+                        <option value="4">프론트엔드 개발자</option>
+                        <option value="5">게임 소프트웨어</option>
+                    </select></label>
+            </div>
+            <div class="vote">
+                진로
+                <label><input type="checkbox" value="DEV">개발</label>
+                <label><input type="checkbox" value="PM">기획</label>
+                <label><input type="checkbox" value="SALE">영업</label>
+                <label><input type="checkbox" value="BUS">창업</label>
+            </div>
+            <div class="vote">
+                남기고 싶은 말
+                <textarea cols="100" rows="10" style="font-family: Georgia, 'Times New Roman', Times, serif; margin-left: 10px">
+                    글을 남겨주세요.
+                </textarea>
+            </div>
+        </article>
+        <footer>
+            Copyright 2017 by Kitae
+        </footer>
+    </section>
+</body>
+</html>

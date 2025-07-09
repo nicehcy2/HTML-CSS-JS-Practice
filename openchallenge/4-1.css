@@ -1,0 +1,21 @@
+section > article {
+    background-color: pink;
+    padding: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.vote {
+    color: blue;
+    font-style: bold;
+}
+
+.vote > * {
+    color: black;
+    font: 1em 휴먼편지체;
+}

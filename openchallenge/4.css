@@ -1,0 +1,20 @@
+.title {
+    text-align: center;
+    color: brown;
+    font-size: 36px;
+}
+
+.index_ul {
+    border: 1px solid black;
+}
+
+h2 {
+    color: blue;
+    text-shadow: 1px 1px 3px skyblue;
+    text-decoration: none;
+}
+
+footer {
+    background-color: orange;
+    border-radius: 10px;
+}
